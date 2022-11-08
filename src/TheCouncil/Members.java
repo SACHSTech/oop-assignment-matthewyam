@@ -10,7 +10,6 @@ public class Members {
     private Double importance;
     
 
-
     public Members(String fName, String lName, String rank, int year, double pwr){
 
         firstName = fName;
@@ -40,9 +39,11 @@ public class Members {
         return importance;
     }
 
+    
     public String toString(){
         return firstName + " " + lastName  + " is the Student Council " + position + "." + " They are in Grade " + grade + " and have an importance level of " + importance + ".";
     }
+    
     
 }
 
