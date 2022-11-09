@@ -1,10 +1,10 @@
 package TheCouncil;
 
-public class vicePresident extends Members{
+public class VicePresident extends Members{
 
     private double netWorth;
 
-    public vicePresident(String fName, String lName, String rank, int year, double pwr, double worth){
+    public VicePresident(String fName, String lName, String rank, int year, double pwr, double worth){
 
         super(fName, lName, rank, year, pwr);
         netWorth = worth;
