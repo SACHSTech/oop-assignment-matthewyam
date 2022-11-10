@@ -16,6 +16,8 @@ public class President extends Members{
     }
 
     public String toString(){
+        
+        System.out.println("test");
         return "The President is " + getFirstName() + " " + getLastName() + "." + " He is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an IQ of " + getCharisma();
     }
 }
