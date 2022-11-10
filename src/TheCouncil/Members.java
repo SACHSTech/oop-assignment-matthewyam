@@ -8,6 +8,8 @@ public class Members {
     private String position;
     private int grade;
     private Double importance;
+    private int totalImportance = 4;
+    private int memberNumber;
     
 
     public Members(String fName, String lName, String rank, int year, double pwr){
@@ -37,6 +39,10 @@ public class Members {
 
     public Double getImportance(){
         return importance;
+    }
+
+    public int getTotalImportance(){
+        return totalImportance;
     }
 
     
