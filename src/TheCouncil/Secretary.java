@@ -3,19 +3,33 @@ package TheCouncil;
 
 public class Secretary extends Members{
 
-    private String publicRelations;
+    private String filing;
 
-    public Secretary (String fName, String lName, String rank, int year, double pwr, String pRelations){
+    public Secretary (String fName, String lName, String rank, int year, double pwr, String files){
 
         super(fName, lName, rank, year, pwr);
-        publicRelations = pRelations;
+        filing = files;
     }
 
-    public String getPublicRelations(){
-        return publicRelations;
+    public String getFiling(){
+        return filing;
     }
 
     public String toString(){
-        return "The Secretary is " + getFirstName() + " " + getLastName() + "." + " He is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an IQ of " + getPublicRelations();
+        
+        System.out.println("");
+        System.out.println("The " + getPosition());
+        System.out.println("-------------------------");
+        System.out.println("");
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Grade: " + getGrade());
+        System.out.println("Influence level: " + getImportance() + "/" + getTotalImportance());
+        System.out.println("");
+        System.out.println("Talent: Filing Paperwork");
+        System.out.println("Filing skills: " + getFiling());
+        return "";
+        
+        //return "The Secretary is " + getFirstName() + " " + getLastName() + "." + " He is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an IQ of " + getPublicRelations();
     }
 }

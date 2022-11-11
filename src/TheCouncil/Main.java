@@ -13,13 +13,14 @@ public class Main{
         President memberOne = new President ("Miyuki", "Shirogane", "President", 12, 4, 10);
         VicePresident memberTwo = new VicePresident ("Kaguya", "Shinomiya", "Vice President", 12, 3.5, 1900749.00);
         Treasure memberThree = new Treasure("Yuu", "Ishigami","Treasure", 10,2,190);
-        Secretary memberFour = new Secretary("Chika", "Fujiwara","Secretary", 12, 1, "Poor");
+        Secretary memberFour = new Secretary("Chika", "Fujiwara","Secretary", 12, 1, "Decently Fast");
         
         
 
         System.out.println("Welcome to the Student Council's Student Tracker");
         System.out.println("");
         System.out.print("Enter Student Council Role: ");
+        
 
         String userInput = keyboard.readLine();
         //userInput = keyboard.readLine();
@@ -46,9 +47,14 @@ public class Main{
             
         }
         
-        if(userInput.equals("exit") || userInput.equals("EXIT") || userInput.equals("Exit")){
+        else if(userInput.equals("exit") || userInput.equals("EXIT") || userInput.equals("Exit")){
             break;
         }
+
+        else{
+            System.out.println("Invalid Option");
+        }
+        System.out.println("");
         System.out.print("Enter Student Council Role: ");
         userInput = keyboard.readLine();
     }

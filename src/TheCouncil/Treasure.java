@@ -16,6 +16,19 @@ public class Treasure extends Members{
     }
 
     public String toString(){
-        return "The Treasure is " + getFirstName() + " " + getLastName() + "." + " He is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an IQ of " + getSmart();
+        
+        System.out.println("");
+        System.out.println("The " + getPosition());
+        System.out.println("-------------------------");
+        System.out.println("");
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Grade: " + getGrade());
+        System.out.println("Influence level: " + getImportance() + "/" + getTotalImportance());
+        System.out.println("");
+        System.out.println("Talent: Intelligence");
+        System.out.println("IQ: " + getSmart());
+        return "";
+        //return "The Treasure is " + getFirstName() + " " + getLastName() + "." + " He is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an IQ of " + getSmart();
     }
 }
