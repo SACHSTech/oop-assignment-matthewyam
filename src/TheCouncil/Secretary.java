@@ -30,6 +30,5 @@ public class Secretary extends Members{
         System.out.println("Filing skills: " + getFiling());
         return "";
         
-        //return "The Secretary is " + getFirstName() + " " + getLastName() + "." + " He is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an IQ of " + getPublicRelations();
     }
 }

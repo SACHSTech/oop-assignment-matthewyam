@@ -30,6 +30,5 @@ public class VicePresident extends Members{
         
         return "";
         
-        //return "The Vice President is " + getFirstName() + " " + getLastName() + "." + " She is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an Net Worth of $" + getNetWorth();
     }
 }

@@ -29,6 +29,6 @@ public class Treasure extends Members{
         System.out.println("Talent: Intelligence");
         System.out.println("IQ: " + getSmart());
         return "";
-        //return "The Treasure is " + getFirstName() + " " + getLastName() + "." + " He is in grade " + getGrade() + ", has a power level of " + getImportance() + " and has an IQ of " + getSmart();
+        
     }
 }

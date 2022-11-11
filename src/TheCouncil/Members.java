@@ -9,7 +9,6 @@ public class Members {
     private int grade;
     private Double importance;
     private int totalImportance = 4;
-    private int memberNumber;
     
 
     public Members(String fName, String lName, String rank, int year, double pwr){

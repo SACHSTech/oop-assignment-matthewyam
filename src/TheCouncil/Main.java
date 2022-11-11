@@ -23,11 +23,6 @@ public class Main{
         
 
         String userInput = keyboard.readLine();
-        //userInput = keyboard.readLine();
-        
-
-        //System.out.println("The profile of the " + userInput + " is");
-        //userInput = keyboard.readLine();
 
         while (userInput != "exit"){
         if(userInput.equals("President") || userInput.equals("president") || userInput.equals("PRESIDENT")){
