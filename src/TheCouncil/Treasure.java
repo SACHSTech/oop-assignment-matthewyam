@@ -3,7 +3,17 @@ package TheCouncil;
 
 public class Treasure extends Members{
 
+    //Variables
     private int smart;
+
+   /**
+     * @param fName First Name
+     * @param lName Last Name
+     * @param rank Role in the Council
+     * @param year Grade
+     * @param pwr Authority Level
+     * @param intelligence IQ
+     */
 
     public Treasure (String fName, String lName, String rank, int year, double pwr, int intelligence){
 
@@ -11,10 +21,12 @@ public class Treasure extends Members{
         smart = intelligence;
     }
 
+    //Returns IQ
     public int getSmart(){
         return smart;
     }
 
+    //Prints and returns information about the Treasure
     public String toString(){
         
         System.out.println("");

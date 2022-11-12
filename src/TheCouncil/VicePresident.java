@@ -2,7 +2,17 @@ package TheCouncil;
 
 public class VicePresident extends Members{
 
+    //Variables
     private double netWorth;
+
+    /**
+     * @param fName First Name
+     * @param lName Last Name
+     * @param rank Role in the Council
+     * @param year Grade
+     * @param pwr Authority Level
+     * @param worth Worth of Vice President
+     */
 
     public VicePresident(String fName, String lName, String rank, int year, double pwr, double worth){
 
@@ -14,6 +24,7 @@ public class VicePresident extends Members{
         return netWorth;
     }
 
+    //Prints and returns information about the Vice President
     public String toString(){
         
         System.out.println("");
