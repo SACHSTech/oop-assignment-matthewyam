@@ -16,7 +16,7 @@ public class Main{
         Secretary memberFour = new Secretary("Chika", "Fujiwara","Secretary", 12, 1, "Decently Fast");
         
         
-
+        System.out.println("");
         System.out.println("Welcome to the Student Council's Student Tracker");
         System.out.println("");
         System.out.print("Enter Student Council Role: ");

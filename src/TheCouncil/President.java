@@ -20,7 +20,6 @@ public class President extends Members{
         System.out.println("");
         System.out.println("The " + getPosition());
         System.out.println("-------------------------");
-        System.out.println("");
         System.out.println("First Name: " + getFirstName());
         System.out.println("Last Name: " + getLastName());
         System.out.println("Grade: " + getGrade());
@@ -28,6 +27,7 @@ public class President extends Members{
         System.out.println("");
         System.out.println("Talent: Charisma");
         System.out.println("Charisma Level: " + getCharisma());
+        System.out.println("-------------------------");
         return "";
 
     }

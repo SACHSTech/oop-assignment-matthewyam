@@ -19,7 +19,6 @@ public class VicePresident extends Members{
         System.out.println("");
         System.out.println("The " + getPosition());
         System.out.println("-------------------------");
-        System.out.println("");
         System.out.println("First Name: " + getFirstName());
         System.out.println("Last Name: " + getLastName());
         System.out.println("Grade: " + getGrade());
@@ -27,6 +26,7 @@ public class VicePresident extends Members{
         System.out.println("");
         System.out.println("Talent: Bribery");
         System.out.println("Net Worth: $" + getNetWorth());
+        System.out.println("-------------------------");
         
         return "";
         
