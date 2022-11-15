@@ -21,6 +21,7 @@ public class VicePresident extends Members{
         netWorth = worth;
     }
 
+    //Returns Net Worth
     public double getNetWorth(){
         return netWorth;
     }
