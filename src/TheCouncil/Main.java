@@ -3,6 +3,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 
+/**
+ * A program that displays info on the student council depending on the user input.
+ * This program displays the hiearchy and the information of members of the student council
+ * @author M. Yam
+ */
+
 
 public class Main{
     

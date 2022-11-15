@@ -7,3 +7,9 @@
 
 ## Summary
 *Include a brief summary that describes your system that your are modelling*
+
+The system is used to output information about the members of the student council.  You are someone who is looking for information
+about the membners of the student council and their speical traites.  This programs allows the end user to find information about
+the members and displays their special traits along with the hiearchy of the council.  The programs displays the full name, the 
+authorty level, grade, role, and their speical skills/traits.  Depending on what you input, the information will come out different
+for each member you select.
