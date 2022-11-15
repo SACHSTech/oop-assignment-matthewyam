@@ -12,12 +12,13 @@ public class Secretary extends Members{
      * @param rank Role in the Council
      * @param year Grade
      * @param pwr Authority Level
+     * @param sSkill Talent
      * @param files Filing Skills
      */
     
-    public Secretary (String fName, String lName, String rank, int year, double pwr, String files){
+    public Secretary (String fName, String lName, String rank, int year, double pwr, String sSkill, String files){
 
-        super(fName, lName, rank, year, pwr);
+        super(fName, lName, rank, year, pwr, sSkill);
         filing = files;
     }
 
@@ -37,7 +38,7 @@ public class Secretary extends Members{
         System.out.println("Grade: " + getGrade());
         System.out.println("Influence level: " + getImportance() + "/" + getTotalImportance());
         System.out.println("");
-        System.out.println("Talent: Filing Paperwork");
+        System.out.println("Talent: " + getTalent());
         System.out.println("Filing skills: " + getFiling());
         System.out.println("-------------------------");
         return "";

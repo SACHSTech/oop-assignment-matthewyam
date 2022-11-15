@@ -18,10 +18,10 @@ public class Main{
         BufferedReader keyboard = new BufferedReader (new InputStreamReader( System.in));
         
         //Uses Extend class to create members
-        President memberOne = new President ("Miyuki", "Shirogane", "President", 12, 4, 10);
-        VicePresident memberTwo = new VicePresident ("Kaguya", "Shinomiya", "Vice President", 12, 3.5, 1900749.00);
-        Treasure memberThree = new Treasure("Yuu", "Ishigami","Treasure", 10,2,190);
-        Secretary memberFour = new Secretary("Chika", "Fujiwara","Secretary", 12, 1, "Decently Fast");
+        President memberOne = new President ("Miyuki", "Shirogane", "President", 12, 4, "Charisma", 10);
+        VicePresident memberTwo = new VicePresident ("Kaguya", "Shinomiya", "Vice President", 12, 3.5, "Bribery", 1900749.42);
+        Treasure memberThree = new Treasure("Yuu", "Ishigami","Treasure", 10,2, "Intelligence",190);
+        Secretary memberFour = new Secretary("Chika", "Fujiwara","Secretary", 12, 1, "Filing Paperwork", "Decently Fast");
         
         //Prints out the begining message and prompts user for input
         System.out.println("");

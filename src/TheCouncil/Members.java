@@ -10,22 +10,25 @@ public class Members {
     private int grade;
     private Double importance;
     private int totalImportance = 4;
+    private String talent;
     
 
     /**
-     * @param fName Generic First Name
-     * @param lName Generic Last Name
-     * @param rank Generic Role in the Council
-     * @param year Generic Grade
-     * @param pwr Generic Authority Level
+     * @param fName First Name
+     * @param lName Last Name
+     * @param rank Role in the Council
+     * @param year Grade
+     * @param pwr Authority Level
+     * @param sSkill Talent
      */
-    public Members(String fName, String lName, String rank, int year, double pwr){
+    public Members(String fName, String lName, String rank, int year, double pwr, String sSkill){
 
         firstName = fName;
         lastName = lName;
         position = rank;
         grade = year;
         importance = pwr;
+        talent = sSkill;
     }
 
     //Returns First Name
@@ -56,6 +59,11 @@ public class Members {
     //Return Total Importance
     public int getTotalImportance(){
         return totalImportance;
+    }
+
+    //Returns Talent
+    public String getTalent(){
+        return talent;
     }
     
     

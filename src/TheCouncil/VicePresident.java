@@ -6,17 +6,18 @@ public class VicePresident extends Members{
     private double netWorth;
 
     /**
-     * @param fName First Name
+     *@param fName First Name
      * @param lName Last Name
      * @param rank Role in the Council
      * @param year Grade
      * @param pwr Authority Level
+     * @param sSkill Talent
      * @param worth Worth of Vice President
      */
 
-    public VicePresident(String fName, String lName, String rank, int year, double pwr, double worth){
+    public VicePresident(String fName, String lName, String rank, int year, double pwr, String sSkill, double worth){
 
-        super(fName, lName, rank, year, pwr);
+        super(fName, lName, rank, year, pwr, sSkill);
         netWorth = worth;
     }
 
@@ -35,7 +36,7 @@ public class VicePresident extends Members{
         System.out.println("Grade: " + getGrade());
         System.out.println("Influence level: " + getImportance() + "/" + getTotalImportance());
         System.out.println("");
-        System.out.println("Talent: Bribery");
+        System.out.println("Talent: " + getTalent());
         System.out.println("Net Worth: $" + getNetWorth());
         System.out.println("-------------------------");
         
