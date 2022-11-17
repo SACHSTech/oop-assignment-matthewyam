@@ -25,7 +25,7 @@ public class Main{
         
         //Prints out the begining message and prompts user for input
         System.out.println("");
-        System.out.println("Welcome to the Student Council's Student Tracker");
+        System.out.println("Welcome to the Student Council's Member Database");
         System.out.println("");
 
         System.out.println("1. President");
